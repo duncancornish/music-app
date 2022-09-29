@@ -11,8 +11,8 @@ const Header = () => {
     <>
     <ul>
       <NavLink className={activeClass} to="/" end>Home</NavLink>
-      <NavLink className={activeClass} to="people">People</NavLink>
-      <NavLink className={activeClass} to="about">About</NavLink>
+      <NavLink className={activeClass} to="About">About</NavLink>
+      <NavLink className={activeClass} to="Albums">Albums</NavLink>
       <BackButton />
     </ul>
     </>
