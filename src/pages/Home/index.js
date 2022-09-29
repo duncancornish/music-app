@@ -1,12 +1,11 @@
 import React from 'react'
 
-import { ArtistInfo, AlbumList } from '../../components'
+import { ArtistInfo } from '../../components'
 
 const Home = () => {
   return (
     <>
-        <ArtistInfo name='Dragonforce' mType="Metal" />
-        <AlbumList />
+        <h1>Welcome! Please use the links above to navigate the website.</h1>
     </>
   )
 }
